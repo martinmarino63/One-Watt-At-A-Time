@@ -36,7 +36,8 @@ header {
 }
 
 .logo img {
-    width: 300px;
+    width: 50%;
+    min-width: 200px;
 }
 
 /* NAV */
@@ -155,9 +156,11 @@ footer li {
 
 /* GRID CON TARJETAS BOOTSTRAP */
 
-.card {
-    margin-bottom: 20px;
+.card-custom-height {
+    margin: 10px;
+    height: 300px;
 }
+
 
 /* FORMULARIO */
 
