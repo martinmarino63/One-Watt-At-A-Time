@@ -1,5 +1,4 @@
-# 54500---Marino-Uviedo-Martin
-
+# One Watt At a Time
 Proyecto para curso de Desarrollo Web en Coderhouse.
 
 El proyecto consiste en realizar una página web estática utilizando únicamente HTML, CSS aplicando Flexbox, grid, SASS.
