@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Work+Sans:wght@300;400;600&display=swap');
+
+
+/* COLOR PALLETE */
+:root {
+    --color-primary: #59A52C;
+    --color-secondary: #111111;
+    --color-background: #e5fbe1;
+    --color-accent: #6fca3a;
+    --color-dark: #437d21;
+    --color-text: #2a2a2a;
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', sans-serif;
+}

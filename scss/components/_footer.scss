@@ -1,0 +1,34 @@
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #50C493;
+    color: var(--color-text);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.socialIcon {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.socialIcon:hover {
+    transform: scale(1.15);
+}
+
+.footerText {
+    font-size: 70%;
+    font-weight: 600;
+}
