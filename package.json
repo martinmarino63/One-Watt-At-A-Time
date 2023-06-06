@@ -1,0 +1,11 @@
+{
+  "name": "54500-marino-uviedo-martin",
+  "version": "1.0.0",
+  "description": "Proyecto para curso de Desarrollo Web en Coderhouse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
