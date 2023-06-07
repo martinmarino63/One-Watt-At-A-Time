@@ -2,8 +2,8 @@
 
 footer {
     width: 100%;
-    background-color: #50C493;
-    color: var(--color-text);
+    background-color: $footer-color;
+    color: $color-text;
     text-align: center;
     display: flex;
     flex-direction: column;

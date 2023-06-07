@@ -90,11 +90,11 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-    border: 2px solid var(--color-accent);
+    border: 2px solid $color-accent;
 }
 
 button[type="submit"] {
-    background-color: var(--color-dark);
+    background-color: $color-dark;
     border: none;
     border-radius: 8px;
     color: #fff;

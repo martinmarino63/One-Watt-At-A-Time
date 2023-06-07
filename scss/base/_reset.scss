@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Work+Sans:wght@300;400;600&display=swap');
 
 * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: $font-text;
     margin: 0;
     padding: 0;
 }
@@ -12,5 +12,5 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: $font-header;
 }

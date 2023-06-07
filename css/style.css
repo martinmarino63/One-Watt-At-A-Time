@@ -1,14 +1,5 @@
 /* COLOR PALLETE */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&family=Work+Sans:wght@300;400;600&display=swap");
-:root {
-  --color-primary: #59A52C;
-  --color-secondary: #111111;
-  --color-background: #e5fbe1;
-  --color-accent: #6fca3a;
-  --color-dark: #437d21;
-  --color-text: #2a2a2a;
-}
-
 * {
   font-family: "Quicksand", sans-serif;
   margin: 0;
@@ -25,8 +16,8 @@ h6 {
 }
 
 /* HEADER */
-header {
-  background-color: var(--color-background);
+.container-fluid {
+  background-color: #e5fbe1;
 }
 
 /* NAV */
@@ -64,7 +55,7 @@ nav a:hover {
 footer {
   width: 100%;
   background-color: #50C493;
-  color: var(--color-text);
+  color: #2a2a2a;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -185,11 +176,11 @@ textarea {
 input:focus,
 select:focus,
 textarea:focus {
-  border: 2px solid var(--color-accent);
+  border: 2px solid #6fca3a;
 }
 
 button[type=submit] {
-  background-color: var(--color-dark);
+  background-color: #437d21;
   border: none;
   border-radius: 8px;
   color: #fff;
