@@ -10,11 +10,12 @@ footer {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
 
-footer li {
-    list-style: none;
-    margin-top: 20px;
+    li {
+        list-style: none;
+        margin-top: 20px;
+    }
+
 }
 
 .socialIcon {
@@ -22,10 +23,11 @@ footer li {
     margin-right: 10px;
     text-decoration: none;
     transition: transform 0.2s ease-in-out;
-}
 
-.socialIcon:hover {
-    transform: scale(1.15);
+    &:hover {
+        transform: scale(1.15);
+    }
+
 }
 
 .footerText {

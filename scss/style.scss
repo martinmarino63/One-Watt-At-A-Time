@@ -1,14 +1,12 @@
-// Imports base
-
+//imports base
 @import 'base/vars';
+@import 'base/utilities';
 @import 'base/reset';
 
-// Imports components
-
+//imports components
 @import 'components/navbar';
 @import 'components/footer';
 
-// Imports layout
-
+//imports layout
 @import 'layout/index';
 @import 'layout/medias';

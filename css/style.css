@@ -17,7 +17,7 @@ h6 {
 
 /* HEADER */
 .container-fluid {
-  background-color: #e5fbe1;
+  background-color: #d6ffce;
 }
 
 /* NAV */
@@ -42,13 +42,13 @@ nav a {
   padding: 10px;
   text-decoration: none;
   font-size: 1rem;
-  font-weight: 600;
   transition: transform 0.2s ease-in-out;
 }
 
 nav a:hover {
   transform: scale(1.05);
   color: #2a2a2a;
+  font-weight: bold;
 }
 
 /* FOOTER */
@@ -63,7 +63,6 @@ footer {
   align-items: center;
   margin-top: 20px;
 }
-
 footer li {
   list-style: none;
   margin-top: 20px;
@@ -75,7 +74,6 @@ footer li {
   text-decoration: none;
   transition: transform 0.2s ease-in-out;
 }
-
 .socialIcon:hover {
   transform: scale(1.15);
 }
@@ -93,28 +91,25 @@ footer li {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .flex-container p {
   font-size: 18px;
   font-weight: 400;
 }
 
 .flex-item {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
   height: 45%;
   margin-bottom: 5%;
   border-radius: 12px;
-  display: flex;
 }
-
 .flex-item img {
   margin-top: 20px;
   max-width: 100%;
   border-radius: 20px;
 }
-
 .flex-item p {
   text-align: center;
   line-height: 1.5;
@@ -153,7 +148,6 @@ h2 {
   flex-direction: column;
   margin-bottom: 15px;
 }
-
 .input-group textarea {
   resize: none;
   height: 200px;
@@ -189,11 +183,11 @@ button[type=submit] {
   padding: 10px;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
-
 button[type=submit]:hover {
   transform: scale(1.05);
-  background-color: var(--color-primary);
+  background-color: #6fca3a;
   transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  color: #2a2a2a;
 }
 
 /* GRID CON TARJETAS BOOTSTRAP */
@@ -207,7 +201,6 @@ button[type=submit]:hover {
 .card-custom-height {
   transition: transform 0.3s ease;
 }
-
 .card-custom-height:hover {
   transform: scale(1.02);
 }
@@ -215,6 +208,21 @@ button[type=submit]:hover {
 .card-title {
   text-align: center;
   margin: 10px;
+}
+
+.hero-contact {
+  position: relative;
+  text-align: center;
+}
+
+.hero-contact img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #50C493;
 }
 
 /* MEDIA QUERIES */
