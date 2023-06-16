@@ -55,46 +55,63 @@
 
     <main>
         <section class="form-section">
-
-            <div class="form-container">
-                <form>
-                    <h2>Formulario de Contacto</h2>
-                    <div class="input-group">
-                        <label for="nombre">Nombre:</label>
-                        <input type="text" id="nombre" name="nombre" required>
+            <div class="form-hero">
+                <img src="../assets/img/formImage.jpg" alt="Contáctanos, es nuestro momento.">
+            </div>
+            <div class="body-form-container">
+                <div class="form-container">
+                    <form>
+                        <h2>Contáctanos, ¡te estamos esperando!</h2>
+                        <div class="input-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="pais">País:</label>
+                            <select id="pais" name="pais" required>
+                                <option value="">Seleccione su país</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Brasil">Brasil</option>
+                                <option value="Chile">Chile</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Perú">Perú</option>
+                                <option value="Uruguay">Uruguay</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <label for="mas">Cuéntanos más sobre ti:</label>
+                            <textarea id="mas" name="mas" required></textarea>
+                        </div>
+                        <div class="input-group">
+                            <button type="submit">Contactar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="info-container">
+                    <div class="contact-info-container">
+                        <h2>Nos puedes encontrar en:</h2>
+                        <p>Dirección: Calle Chipa, Ciudad Tukiaaaaaaaaa, Argentina</p>
+                        <p>Teléfono móvil: +54 9 123456789</p>
+                        <p>Teléfono fijo: +54 12345678</p>
+                        <p>Email: contacto@onewatt.org</p>
                     </div>
-                    <div class="input-group">
-                        <label for="apellido">Apellido:</label>
-                        <input type="text" id="apellido" name="apellido" required>
-                    </div>
-                    <div class="input-group">
-                        <label for="telefono">Teléfono:</label>
-                        <input type="tel" id="telefono" name="telefono" required>
-                    </div>
-                    <div class="input-group">
-                        <label for="email">Correo Electrónico:</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="input-group">
-                        <label for="pais">País:</label>
-                        <select id="pais" name="pais" required>
-                            <option value="">Seleccione su país</option>
-                            <option value="Argentina">Argentina</option>
-                            <option value="Brasil">Brasil</option>
-                            <option value="Chile">Chile</option>
-                            <option value="Colombia">Colombia</option>
-                            <option value="Perú">Perú</option>
-                            <option value="Uruguay">Uruguay</option>
-                        </select>
-                    </div>
-                    <div class="input-group">
-                        <label for="mas">Cuéntanos más sobre ti:</label>
-                        <textarea id="mas" name="mas" required></textarea>
-                    </div>
-                    <div class="input-group">
-                        <button type="submit">Contactar</button>
-                    </div>
-                </form>
+                    <div><iframe class="map-google"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.27456472613!2d-58.51569897281678!3d-34.61579604876951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1686881442490!5m2!1ses-419!2sar"
+                            width="600" height="450" style="border-radius: 20px;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                </div>
             </div>
         </section>
     </main>
