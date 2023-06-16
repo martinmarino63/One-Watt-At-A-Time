@@ -199,7 +199,7 @@ form {
 .info-container {
   height: 100%;
   padding: 10px;
-  min-width: 50%;
+  /* min-width: 50%; */
 }
 
 .map-google {
