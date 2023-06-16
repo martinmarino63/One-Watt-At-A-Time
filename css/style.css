@@ -202,12 +202,11 @@ form {
 }
 
 .map-google {
-  width: 100%;
   max-height: 480px;
+  width: 100%;
 }
 
 .contact-info-container {
-  min-width: 50%;
   height: 100%;
   padding: 10px;
   border: 1px solid #ccc;
