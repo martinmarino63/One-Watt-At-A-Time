@@ -99,6 +99,39 @@ main {
 }
 
 /* MAIN */
+.heroTittle {
+  display: flex;
+  justify-content: center;
+}
+
+.heroTittle h1,
+.Who h2 {
+  font-size: clamp(15px, 4vw, 48px);
+}
+
+.w-100 {
+  object-fit: cover;
+  height: 50%;
+  max-height: 480px;
+  max-width: 100%;
+  min-width: 50%;
+}
+
+.carousel-control-next-icon {
+  background-image: url("https://www.svgrepo.com/show/511422/arrow-right-336.svg");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("https://www.svgrepo.com/show/511381/arrow-left-335.svg");
+}
+
+hr.rounded {
+  max-width: 50%;
+  margin: 20px auto;
+  border-top: 3px solid #bbb;
+  border-radius: 5px;
+}
+
 .flex-container {
   display: flex;
   padding: 20px;
@@ -219,6 +252,10 @@ button[type=submit]:hover {
   transform: scale(1.02);
 }
 
+.col-md-6 {
+  margin-top: 20px;
+}
+
 .card-title {
   text-align: center;
   margin: 10px;
@@ -230,7 +267,8 @@ button[type=submit]:hover {
 }
 
 .hero-contact img {
-  width: 50%;
+  width: 100%;
+  min-width: 50%;
   display: block;
   margin: 0 auto;
 }
