@@ -27,3 +27,16 @@
     }
 
 }
+
+@media only screen and (max-width: 480px) {
+    .flex-item p {
+        text-align: justify;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .flex-item p {
+        margin: 0px 2rem;
+    }
+}

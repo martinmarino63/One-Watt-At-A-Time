@@ -185,7 +185,6 @@ hr.rounded {
 .flex-item p {
   text-align: center;
   line-height: 1.5;
-  margin: 10px 0;
 }
 
 /* FORMULARIO */
@@ -356,6 +355,17 @@ button[type=submit]:hover {
 @media only screen and (max-width: 1024px) {
   .body-form-container {
     flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .flex-item p {
+    text-align: justify;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flex-item p {
+    margin: 0px 2rem;
   }
 }
 
