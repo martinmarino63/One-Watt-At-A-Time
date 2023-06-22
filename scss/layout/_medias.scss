@@ -19,3 +19,11 @@
     //     min-width: 50%;
     // }
 }
+
+@media only screen and (max-width: 1024px) {
+
+    .body-form-container {
+        flex-wrap: wrap;
+    }
+
+}

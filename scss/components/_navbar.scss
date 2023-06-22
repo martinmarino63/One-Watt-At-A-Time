@@ -1,7 +1,7 @@
 /* HEADER */
 
 .container-fluid {
-    background-color: $color-background;
+    background-color: $color-text;
 }
 
 /* NAV */
@@ -20,8 +20,12 @@ nav li {
     justify-content: space-around;
 }
 
+.navbar {
+    margin-top: -10px;
+}
+
 .nav-link {
-    color: #111111;
+    color: #e4e4e4;
     display: inline-block;
     padding: 10px;
     text-decoration: none;
@@ -30,8 +34,17 @@ nav li {
 
     &:hover {
         transform: scale(1.05);
-        color: #2a2a2a;
+        color: $color-background;
         font-weight: bold;
     }
 
+}
+
+.navbar-toggler {
+    border-color: #E4E4E4;
+    margin: 10px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(228, 228, 228, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }

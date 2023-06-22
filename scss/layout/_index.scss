@@ -38,10 +38,22 @@ main {
 
 .carousel-control-next-icon {
     background-image: url("https://www.svgrepo.com/show/511422/arrow-right-336.svg");
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+
 }
 
 .carousel-control-prev-icon {
     background-image: url("https://www.svgrepo.com/show/511381/arrow-left-335.svg");
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+
 }
 
 hr.rounded {
@@ -114,13 +126,15 @@ form {
 .body-form-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
 .info-container {
+    width: 100%;
     height: 100%;
     padding: 10px;
+    max-width: 420px;
+    min-width: 280px;
 }
 
 .map-google {
@@ -201,13 +215,13 @@ button[type="submit"] {
     display: inline-block;
     width: auto;
     height: 100%;
-}
-
-.card-custom-height {
     transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
     &:hover {
         transform: scale(1.02);
+        transform: scale(1.02);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 }
 
